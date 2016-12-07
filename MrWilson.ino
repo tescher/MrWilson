@@ -136,16 +136,16 @@ void loop() {
     delay(1000);
   }
 
-  LED_Display(WHITE,WHITE,false);
-  delay(200);
-  LED_Display(BLACK,BLACK,false);
-  delay(200);
-  LED_Display(RED,RED,false);
-  delay(200);
-  LED_Display(GREEN,GREEN,false);
-  delay(200);
-  LED_Display(BLUE,BLUE,false);
-  delay(200);
+  //LED_Display(WHITE,WHITE,false);
+  //delay(200);
+  //LED_Display(BLACK,BLACK,false);
+  //delay(200);
+  //LED_Display(RED,RED,false);
+  //delay(200);
+  //LED_Display(GREEN,GREEN,false);
+  //delay(200);
+  //LED_Display(BLUE,BLUE,false);
+  //delay(200);
     
   for (int i=0; i<16; i++) {
     Play_Note(melody[i], noteDurations[i]);
